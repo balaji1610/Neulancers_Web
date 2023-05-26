@@ -1,10 +1,9 @@
+import HomePage from "./Pages/HomePage";
+
 function App() {
   return (
     <div>
-      {" "}
-      <button type="button" class="btn btn-outline-primary">
-        Primary
-      </button>
+      <HomePage />
     </div>
   );
 }
