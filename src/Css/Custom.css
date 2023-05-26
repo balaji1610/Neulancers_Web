@@ -5,7 +5,7 @@
 }
 
 .mobile_image {
-  width: 476px;
+  width: 400px;
   height: 301px;
 }
 
@@ -13,4 +13,35 @@
   border-radius: 25px !important;
 }
 
-/*  END ->Contact Page Css  */
+/*  END ->Contact Page   */
+
+/*  Offer Page Start  */
+
+.offer_01 {
+  height: 250px;
+  width: 400px;
+}
+
+.box_offer_01 {
+  background-color: #f4f4f4;
+  height: 201px;
+  border-radius: 25px;
+}
+
+.box_offer_02 {
+  background-color: #f4f4f4;
+  height: 201px;
+  border-radius: 25px;
+}
+.box_offer_align {
+  padding-top: 40px;
+}
+.offer_align {
+  margin: 20px;
+}
+
+.box_align_set {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* END-> Offer Page   */
