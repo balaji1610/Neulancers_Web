@@ -1,3 +1,5 @@
+/* Contact Page Css -->START */
+
 .Contact {
   color: red;
 }
@@ -7,22 +9,8 @@
   height: 301px;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 2300px) {
-  /* .currency_third {
-      display: inline;
-    } */
-
-  .contactUs_Mobile {
-    display: none;
-  }
+.contactus {
+  border-radius: 25px !important;
 }
 
-@media only screen and (min-width: 100px) and (max-width: 599px) {
-  .contactUs_Deskop {
-    display: none;
-  }
-
-  /* .currency_third_mobile {
-      display: inline;
-    } */
-}
+/*END ->Contact Page Css  */
