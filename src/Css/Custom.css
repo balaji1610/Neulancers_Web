@@ -1,3 +1,28 @@
 .Contact {
   color: red;
 }
+
+.mobile_image {
+  width: 476px;
+  height: 301px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 2300px) {
+  /* .currency_third {
+      display: inline;
+    } */
+
+  .contactUs_Mobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 599px) {
+  .contactUs_Deskop {
+    display: none;
+  }
+
+  /* .currency_third_mobile {
+      display: inline;
+    } */
+}
