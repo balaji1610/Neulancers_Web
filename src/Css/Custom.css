@@ -72,3 +72,11 @@
 }
 
 /*   How We do IT  END  */
+
+.left_chooseBox {
+  margin-left: 223px;
+}
+
+.right_chooseBox {
+  float: left;
+}

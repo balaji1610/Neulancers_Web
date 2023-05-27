@@ -6,6 +6,7 @@ import SecuredApp from "../Containers/SecuredApp";
 import Howwedoit from "../Containers/Howwedoit";
 import HowweContent from "../Containers/HowweContent";
 import WhyChooseUs from "../Containers/WhyChooseUs";
+import TypesChooseUS from "../Containers/TypesChooseUS";
 export default function HomePage() {
   return (
     <div>
@@ -20,6 +21,7 @@ export default function HomePage() {
       <Howwedoit />
       <HowweContent />
       <WhyChooseUs />
+      <TypesChooseUS />
       <br /> <br /> <br />
     </div>
   );

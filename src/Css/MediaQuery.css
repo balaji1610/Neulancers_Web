@@ -6,6 +6,9 @@
   .Services_mobile {
     display: none;
   }
+  .TypesChoosUS_Mobile {
+    display: none;
+  }
 }
 /* Mobile Space*/
 @media only screen and (min-width: 100px) and (max-width: 599px) {
@@ -17,6 +20,9 @@
     display: none;
   }
   .App_development_desktop {
+    display: none;
+  }
+  .TypesChoosUS_Desktop {
     display: none;
   }
 }
