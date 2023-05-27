@@ -3,6 +3,7 @@ import Services from "../Containers/Services";
 import Offer from "../Containers/Offer";
 import AppDevelopment from "../Containers/AppDevelopment";
 import SecuredApp from "../Containers/SecuredApp";
+import Howwedoit from "../Containers/Howwedoit";
 export default function HomePage() {
   return (
     <div>
@@ -14,6 +15,7 @@ export default function HomePage() {
         <AppDevelopment />
       </div>
       <SecuredApp />
+      <Howwedoit />
       <br /> <br /> <br />
     </div>
   );
