@@ -4,6 +4,7 @@ import Offer from "../Containers/Offer";
 import AppDevelopment from "../Containers/AppDevelopment";
 import SecuredApp from "../Containers/SecuredApp";
 import Howwedoit from "../Containers/Howwedoit";
+import HowweContent from "../Containers/HowweContent";
 export default function HomePage() {
   return (
     <div>
@@ -16,6 +17,7 @@ export default function HomePage() {
       </div>
       <SecuredApp />
       <Howwedoit />
+      <HowweContent />
       <br /> <br /> <br />
     </div>
   );
