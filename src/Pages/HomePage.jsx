@@ -8,8 +8,11 @@ export default function HomePage() {
       <ContactUs />
       <Services />
       <Offer />
-      <AppDevelopment />
-      <br /> <br /> <br /> <br />
+      <div className="App_development_desktop">
+        {" "}
+        <AppDevelopment />
+      </div>
+      <br /> <br /> <br />
     </div>
   );
 }

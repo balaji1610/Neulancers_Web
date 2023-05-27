@@ -1,26 +1,22 @@
-/* ContactUs Page */
+/* Desktop Space*/
 @media only screen and (min-width: 600px) and (max-width: 2300px) {
   .contactUs_Mobile {
     display: none;
   }
-}
-
-@media only screen and (min-width: 100px) and (max-width: 599px) {
-  .contactUs_Deskop {
-    display: none;
-  }
-}
-
-/* Services  Page */
-
-@media only screen and (min-width: 600px) and (max-width: 2300px) {
   .Services_mobile {
     display: none;
   }
 }
-
+/* Mobile Space*/
 @media only screen and (min-width: 100px) and (max-width: 599px) {
+  .contactUs_Deskop {
+    display: none;
+  }
+
   .Services_desktop {
+    display: none;
+  }
+  .App_development_desktop {
     display: none;
   }
 }
