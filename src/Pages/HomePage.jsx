@@ -7,6 +7,9 @@ import Howwedoit from "../Containers/Howwedoit";
 import HowweContent from "../Containers/HowweContent";
 import WhyChooseUs from "../Containers/WhyChooseUs";
 import TypesChooseUS from "../Containers/TypesChooseUS";
+import DesktopDevelopmentProcess from "../Containers/DesktopDevelopmentProcess";
+
+import MobileDevelopmentProcess from "../Containers/MobileDevelopmentProcess";
 export default function HomePage() {
   return (
     <div>
@@ -22,6 +25,14 @@ export default function HomePage() {
       <HowweContent />
       <WhyChooseUs />
       <TypesChooseUS />
+      <div className="Development_Process_Desktop">
+        {" "}
+        <DesktopDevelopmentProcess />
+      </div>
+      <div className="Development_Process_Mobile">
+        {" "}
+        <MobileDevelopmentProcess />{" "}
+      </div>
       <br /> <br /> <br />
     </div>
   );

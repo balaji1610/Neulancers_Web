@@ -9,6 +9,9 @@
   .TypesChoosUS_Mobile {
     display: none;
   }
+  .Development_Process_Mobile {
+    display: none;
+  }
 }
 /* Mobile Space*/
 @media only screen and (min-width: 100px) and (max-width: 599px) {
@@ -23,6 +26,9 @@
     display: none;
   }
   .TypesChoosUS_Desktop {
+    display: none;
+  }
+  .Development_Process_Desktop {
     display: none;
   }
 }
