@@ -1,4 +1,6 @@
-import ContactUs from "../Containers/ContactUs";
+//ContactUs
+import DesktopContactus from "../Containers/DesktopContactus";
+import MobileContactus from "../Containers/MobileContactus";
 import Services from "../Containers/Services";
 import Offer from "../Containers/Offer";
 import AppDevelopment from "../Containers/AppDevelopment";
@@ -13,7 +15,12 @@ import MobileDevelopmentProcess from "../Containers/MobileDevelopmentProcess";
 export default function HomePage() {
   return (
     <div>
-      <ContactUs />
+      <div className="contactUs_Deskop">
+        <DesktopContactus />
+      </div>
+      <div className="contactUs_Mobile">
+        <MobileContactus />
+      </div>
       <Services />
       <Offer />
       <div className="App_development_desktop">
