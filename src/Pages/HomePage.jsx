@@ -23,6 +23,7 @@ export default function HomePage() {
       </div>
       <Services />
       <Offer />
+      <div style={{ paddingBottom: "50px" }}></div>
       <div className="App_development_desktop">
         {" "}
         <AppDevelopment />
