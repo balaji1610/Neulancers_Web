@@ -4,7 +4,7 @@ export default function TypesChooseUS() {
   return (
     <div>
       <div className="TypesChoosUS_Desktop">
-        <div className="container text-center">
+        <div className="container text-center" style={{ marginBottom: "30px" }}>
           <div className="col-md-12 col-sm-12">
             <div className="row">
               <div className="col-md-4 col-sm-4">
@@ -76,7 +76,7 @@ export default function TypesChooseUS() {
       {/* Mobile */}
 
       <div className="TypesChoosUS_Mobile">
-        <div className="container text-center">
+        <div className="container text-center" style={{ marginBottom: "40px" }}>
           <div className="col-md-12 col-sm-12">
             <img
               width="400"

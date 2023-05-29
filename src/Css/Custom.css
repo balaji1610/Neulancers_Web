@@ -86,6 +86,7 @@
 
 .right_chooseBox {
   float: left;
+  text-align: initial;
 }
 
 .DevelopmentProcess_bg {
