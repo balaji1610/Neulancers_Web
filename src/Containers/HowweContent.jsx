@@ -4,7 +4,7 @@ export default function HowweContent() {
       <div className="container text-center">
         <div className="col-md-12 col-sm-12">
           <div className="row">
-            <div className="col-md-4 col-sm-4">
+            <div className="col-md-4 col-sm-4" style={{ marginBottom: "40px" }}>
               <div className="HowwecontentItImage">
                 <img
                   width="200"
@@ -16,7 +16,10 @@ export default function HowweContent() {
             </div>
             <div className="col-md-8 col-sm-8">
               {" "}
-              <div class="d-flex justify-content-around">
+              <div
+                class="d-flex justify-content-around"
+                style={{ marginBottom: "50px" }}
+              >
                 <div class="align-self-start">
                   <div>
                     <h3>
@@ -25,7 +28,15 @@ export default function HowweContent() {
                     </h3>
                   </div>
                   <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                    <p>Lorem ipsum dolor sit </p>
+                    <span
+                      style={{
+                        marginTop: "8px",
+                        display: "block",
+                        width: "164px",
+                        borderBottom: "3px solid #000000",
+                      }}
+                    ></span>
                   </div>
                 </div>
                 <div class="align-self-start">
@@ -36,11 +47,22 @@ export default function HowweContent() {
                     </h3>
                   </div>
                   <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                    <p>Lorem ipsum dolor sit </p>
+                    <span
+                      style={{
+                        marginTop: "8px",
+                        display: "block",
+                        width: "164px",
+                        borderBottom: "3px solid #000000",
+                      }}
+                    ></span>
                   </div>
                 </div>
               </div>
-              <div class="d-flex justify-content-around">
+              <div
+                class="d-flex justify-content-around"
+                style={{ marginBottom: "50px" }}
+              >
                 <div class="align-self-start">
                   <div>
                     <h3>
@@ -49,7 +71,15 @@ export default function HowweContent() {
                     </h3>
                   </div>
                   <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                    <p>Lorem ipsum dolor sit </p>
+                    <span
+                      style={{
+                        marginTop: "8px",
+                        display: "block",
+                        width: "164px",
+                        borderBottom: "3px solid #000000",
+                      }}
+                    ></span>
                   </div>
                 </div>
                 <div class="align-self-start">
@@ -60,7 +90,15 @@ export default function HowweContent() {
                     </h3>
                   </div>
                   <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                    <p>Lorem ipsum dolor sit </p>
+                    <span
+                      style={{
+                        marginTop: "8px",
+                        display: "block",
+                        width: "164px",
+                        borderBottom: "3px solid #000000",
+                      }}
+                    ></span>
                   </div>
                 </div>
               </div>
