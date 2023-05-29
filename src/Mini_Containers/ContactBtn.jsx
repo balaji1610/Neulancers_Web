@@ -3,8 +3,11 @@ export default function ContactBtn() {
     <div className="col-md-8 col-sm-8">
       <div className="d-flex flex-column mb-3">
         <div className="p-2">
-          <h1>App Development Done</h1>
-          <h1>with Lastest Technology</h1>
+          <h1 style={{ fontWeight: "bold" }}>App Development Done</h1>
+          <h1 style={{ fontWeight: "bold" }}>
+            with{" "}
+            <span style={{ fontWeight: "normal" }}>Lastest Technology</span>
+          </h1>
         </div>
         <div className="p-2">
           <p>

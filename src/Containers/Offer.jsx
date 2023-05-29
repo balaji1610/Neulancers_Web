@@ -4,9 +4,11 @@ export default function Offer() {
   return (
     <div>
       {" "}
-      <div className="container text-center">
+      <div className="container text-center" style={{ marginBottom: "50px" }}>
         <div className="col-md-12 col-sm-12">
-          <h1>what we Offer</h1>
+          <h1 style={{ fontWeight: "normal" }}>
+            what we <span style={{ fontWeight: "bold" }}>Offer</span>{" "}
+          </h1>
         </div>
       </div>{" "}
       <div className="container">

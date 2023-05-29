@@ -2,8 +2,15 @@ export default function Services() {
   return (
     <div>
       <div className="container text-center">
-        <div className="col-md-12 col-sm-12">
-          <h1>Our Application Development Services</h1>
+        <div
+          className="col-md-12 col-sm-12"
+          style={{ marginTop: "20px", marginBottom: "35px" }}
+        >
+          <h1 style={{ fontWeight: "normal" }}>
+            Our &nbsp;
+            <span style={{ fontWeight: "bold" }}>Application</span> Development
+            Services
+          </h1>
 
           <div className="Services_desktop">
             <h6>
