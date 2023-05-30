@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 export default function ThreetypesApp() {
+  const [appdevelop, setAppdevelop] = useState(false);
   return (
     <div className="container" style={{ paddingTop: "70px" }}>
       <div className="col-md-12 col-sm-12">
@@ -18,11 +21,21 @@ export default function ThreetypesApp() {
                   ></span>
                 </h1>
               </div>
-              <div>
-                <h1 style={{ fontSize: "89px", color: "#c3c3c3" }}>
+              <span
+                onMouseEnter={() => setAppdevelop(true)}
+                onMouseLeave={() => setAppdevelop(false)}
+                style={{ cursor: "pointer", display: "inline-block" }}
+              >
+                <h1
+                  style={{
+                    fontSize: "89px",
+
+                    color: appdevelop ? "#0288D1" : "#c3c3c3",
+                  }}
+                >
                   App Development
                 </h1>
-              </div>
+              </span>
               <div
                 style={{
                   color: "#858585",
