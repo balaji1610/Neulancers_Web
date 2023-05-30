@@ -117,3 +117,11 @@
   /* width: 10px; */
   display: inline-block;
 }
+
+/* mouseEnter/mouseleave */
+.titleHover {
+  border-bottom: 4px dotted #e91e63;
+  display: inline-block;
+  width: 139px;
+  cursor: pointer;
+}

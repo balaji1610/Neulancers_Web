@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 export default function SecuredApp() {
+  const [secured, setSecured] = useState(false);
   return (
     <div>
       <div
@@ -6,11 +9,26 @@ export default function SecuredApp() {
         style={{ marginTop: "5vh", marginBottom: "5vh" }}
       >
         <div className="col-md-12 col-sm-12">
-          <div>
+          <span
+            onMouseEnter={() => setSecured(true)}
+            onMouseLeave={() => setSecured(false)}
+            style={{ cursor: "pointer", display: "inline-block" }}
+          >
             <h1 style={{ fontWeight: "normal" }}>
-              <span style={{ fontWeight: "bold" }}>Secured</span> App
-              Development
+              <span
+                style={{
+                  fontWeight: "bold",
+                  color: secured ? "#0288D1" : "#000000",
+                }}
+              >
+                Secured
+              </span>{" "}
+              App Development
             </h1>
+          </span>
+          <div class="d-flex justify-content-center">
+            {" "}
+            <div className={secured ? "titleHover" : null}></div>{" "}
           </div>
         </div>
       </div>

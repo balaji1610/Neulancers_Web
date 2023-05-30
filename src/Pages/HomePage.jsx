@@ -41,7 +41,6 @@ export default function HomePage() {
         {" "}
         <MobileDevelopmentProcess />{" "}
       </div>
-      <br /> <br /> <br />
     </div>
   );
 }

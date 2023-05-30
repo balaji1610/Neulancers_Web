@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 export default function Howwedoit() {
+  const [howwe, setHowWe] = useState(false);
   return (
     <div className="container">
       <div className="col-md-12 col-sm-12">
@@ -7,8 +10,16 @@ export default function Howwedoit() {
             className="col-md-8 col-sm-8"
             style={{ marginTop: "10px", marginBottom: "29px" }}
           >
-            <div>
-              <h1>
+            <div
+              onMouseEnter={() => setHowWe(true)}
+              onMouseLeave={() => setHowWe(false)}
+              style={{ cursor: "pointer", display: "inline-block" }}
+            >
+              <h1
+                style={{
+                  color: howwe ? "#0288D1" : "#000000",
+                }}
+              >
                 <b>How We do it?</b>
               </h1>
             </div>

@@ -1,14 +1,35 @@
+import { useState } from "react";
 import OfferBox from "../Mini_Containers/OfferBox";
 import OfferCard from "../Mini_Containers/OfferCard";
 export default function Offer() {
+  const [offer, setOffer] = useState(false);
   return (
     <div>
       {" "}
       <div className="container text-center" style={{ marginBottom: "50px" }}>
         <div className="col-md-12 col-sm-12">
-          <h1 style={{ fontWeight: "normal" }}>
-            what we <span style={{ fontWeight: "bold" }}>Offer</span>{" "}
-          </h1>
+          <span
+            onMouseEnter={() => setOffer(true)}
+            onMouseLeave={() => setOffer(false)}
+            style={{ cursor: "pointer", display: "inline-block" }}
+          >
+            <h1 style={{ fontWeight: "normal" }}>
+              what we{" "}
+              <span
+                style={{
+                  fontWeight: "bold",
+
+                  color: offer ? "#0288D1" : "#000000",
+                }}
+              >
+                Offer
+              </span>{" "}
+            </h1>
+          </span>
+          <div class="d-flex justify-content-center">
+            {" "}
+            <div className={offer ? "titleHover" : null}></div>{" "}
+          </div>
         </div>
       </div>{" "}
       <div className="container">
