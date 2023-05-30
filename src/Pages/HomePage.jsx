@@ -15,31 +15,61 @@ import MobileDevelopmentProcess from "../Containers/MobileDevelopmentProcess";
 export default function HomePage() {
   return (
     <div>
-      <div className="contactUs_Deskop">
-        <DesktopContactus />
+      <div className="Overall_Desktop">
+        <div className="contactUs_Deskop">
+          <DesktopContactus />
+        </div>
+        <div className="contactUs_Mobile">
+          <MobileContactus />
+        </div>
+        <Services />
+        <Offer />
+        <div style={{ paddingBottom: "50px" }}></div>
+        <div className="App_development_desktop">
+          {" "}
+          <AppDevelopment />
+        </div>
+        <SecuredApp />
+        <Howwedoit />
+        <HowweContent />
+        <WhyChooseUs />
+        <TypesChooseUS />
+        <div className="Development_Process_Desktop">
+          {" "}
+          <DesktopDevelopmentProcess />
+        </div>
+        <div className="Development_Process_Mobile">
+          {" "}
+          <MobileDevelopmentProcess />{" "}
+        </div>
       </div>
-      <div className="contactUs_Mobile">
-        <MobileContactus />
-      </div>
-      <Services />
-      <Offer />
-      <div style={{ paddingBottom: "50px" }}></div>
-      <div className="App_development_desktop">
-        {" "}
-        <AppDevelopment />
-      </div>
-      <SecuredApp />
-      <Howwedoit />
-      <HowweContent />
-      <WhyChooseUs />
-      <TypesChooseUS />
-      <div className="Development_Process_Desktop">
-        {" "}
-        <DesktopDevelopmentProcess />
-      </div>
-      <div className="Development_Process_Mobile">
-        {" "}
-        <MobileDevelopmentProcess />{" "}
+      <div className="Overall_Mobile">
+        <div className="contactUs_Deskop">
+          <DesktopContactus />
+        </div>
+        <div className="contactUs_Mobile">
+          <MobileContactus />
+        </div>
+        <Services />
+        <Offer />
+        <div style={{ paddingBottom: "50px" }}></div>
+        <div className="App_development_desktop">
+          {" "}
+          <AppDevelopment />
+        </div>
+        <SecuredApp />
+        <Howwedoit />
+        <HowweContent />
+        <WhyChooseUs />
+        <TypesChooseUS />
+        <div className="Development_Process_Desktop">
+          {" "}
+          <DesktopDevelopmentProcess />
+        </div>
+        <div className="Development_Process_Mobile">
+          {" "}
+          <MobileDevelopmentProcess />{" "}
+        </div>
       </div>
     </div>
   );

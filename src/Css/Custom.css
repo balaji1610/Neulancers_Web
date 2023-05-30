@@ -125,3 +125,7 @@
   width: 139px;
   cursor: pointer;
 }
+
+.Overall_Mobile {
+  width: fit-content;
+}
