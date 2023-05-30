@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 export default function BoxChoose({
   src,
   imageClass,
@@ -8,13 +10,21 @@ export default function BoxChoose({
   content3,
   contentClass,
 }) {
+  const [boxtchoose, setBoxChoose] = useState(false);
   return (
-    <div class="d-flex flex-column mb-3">
+    <div
+      class="d-flex flex-column mb-3"
+      onMouseEnter={() => setBoxChoose(true)}
+      onMouseLeave={() => setBoxChoose(false)}
+      style={{ cursor: "pointer" }}
+    >
       <div class="p-2">
         <img width="67" height="67" src={src} className={imageClass} />
       </div>
       <div class="p-2">
-        <h2 className={titleClass}>{title}</h2>
+        <h2 className={titleClass} style={{ color: boxtchoose && "red" }}>
+          {title}
+        </h2>
       </div>
       <div class="p-2">
         {" "}
