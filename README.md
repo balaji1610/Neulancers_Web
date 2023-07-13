@@ -1,5 +1,13 @@
-https://neulancersweb.netlify.app/
 
+https://master-neulancers-web.onrender.com
+
+#Project description
+
+1) This is Static Site with no dynamic server-side rendering or data fetching  
+
+2) It is generated during the build process and typically hosted as static files on a web server 
+
+3) It is responsive web to use different screen sizes
 
 # Getting Started with Create React App
 
