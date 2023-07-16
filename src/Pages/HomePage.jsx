@@ -66,10 +66,10 @@ export default function HomePage() {
           {" "}
           <DesktopDevelopmentProcess />
         </div>
-        <div className="Development_Process_Mobile">
+        {/* <div className="Development_Process_Mobile">
           {" "}
           <MobileDevelopmentProcess />{" "}
-        </div>
+        </div> */}
       </div>
     </div>
   );
